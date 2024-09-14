@@ -46,10 +46,10 @@
 
         arrows {
             bindings = <
-&kp TAB           &kp LS(TAB)    &trans  &trans       &trans       &trans    &trans     &kp HOME  &kp UP         &trans     &kp DELETE  &kp BSPC
-&kp LEFT_SHIFT    &kp LC(LSHFT)  &trans  &trans       &trans       &trans    &trans     &kp LEFT  &kp DOWN       &kp RIGHT  &trans      &trans
-&kp LEFT_CONTROL  &trans         &trans  &kp LC(INS)  &kp LS(INS)  &trans    &trans     &trans    &kp END        &trans     &trans      &trans
-                                         &trans       &trans       &trans    &kp SPACE  &kp RET   &kp RIGHT_ALT
+&kp TAB           &kp LS(TAB)    &none  &none        &none        &none    &none      &kp HOME  &kp UP         &none      &kp DELETE  &kp BSPC
+&kp LEFT_SHIFT    &kp LC(LSHFT)  &none  &none        &none        &none    &none      &kp LEFT  &kp DOWN       &kp RIGHT  &none       &none
+&kp LEFT_CONTROL  &none          &none  &kp LC(INS)  &kp LS(INS)  &none    &none      &none     &kp END        &none      &none       &none
+                                        &none        &none        &none    &kp SPACE  &kp RET   &kp RIGHT_ALT
             >;
         };
 
@@ -62,10 +62,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB           &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans    &trans     &kp N1   &kp N2  &kp N3  &kp EQUAL  &kp BSPC
-&kp LEFT_SHIFT    &trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans    &kp COMMA  &kp N4   &kp N5  &kp N6  &kp FSLH   &kp STAR
-&kp LEFT_CONTROL  &trans      &trans        &trans        &trans        &trans    &kp DOT    &kp N7   &kp N8  &kp N9  &kp MINUS  &kp PLUS
-                                            &trans        &trans        &trans    &kp SPACE  &kp RET  &kp N0
+&kp TAB           &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none    &none      &kp N1   &kp N2  &kp N3  &kp EQUAL  &kp BSPC
+&kp LEFT_SHIFT    &none       &bt BT_SEL 3  &bt BT_SEL 4  &none         &none    &kp COMMA  &kp N4   &kp N5  &kp N6  &kp FSLH   &kp STAR
+&kp LEFT_CONTROL  &none       &none         &none         &none         &none    &kp DOT    &kp N7   &kp N8  &kp N9  &kp MINUS  &kp PLUS
+                                            &none         &none         &none    &kp SPACE  &kp RET  &kp N0
             >;
         };
     };
