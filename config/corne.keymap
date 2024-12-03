@@ -47,10 +47,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB           &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT    &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LEFT_CONTROL  &kp F6    &kp F7  &kp F8    &kp F9    &kp F10      &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                    &kp LGUI  &kp LALT  &kp SPACE    &trans     &trans     &trans
+&kp TAB           &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp BSPC
+&kp LEFT_SHIFT    &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp MINUS  &kp EQUAL  &kp LBKT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH
+&kp LEFT_CONTROL  &kp F6    &kp F7  &kp F8    &kp F9    &kp F10      &kp UNDER  &kp PLUS   &kp LBRC         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE
+                                    &kp LGUI  &kp LALT  &kp SPACE    &kp SPACE  &trans     &trans
             >;
         };
 
@@ -63,10 +63,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB           &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none    &none      &kp N7   &kp N8  &kp N9  &kp EQUAL  &kp BSPC
-&kp LEFT_SHIFT    &bt BT_CLR_ALL  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none    &kp COMMA  &kp N4   &kp N5  &kp N6  &kp FSLH   &kp STAR
-&kp LEFT_CONTROL  &none           &none         &none         &none         &none    &kp DOT    &kp N1   &kp N2  &kp N3  &kp MINUS  &kp PLUS
-                                                &none         &none         &none    &kp SPACE  &kp RET  &kp N0
+&kp TAB           &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none        &kp NUMBER_0  &kp N7   &kp N8  &kp N9  &kp MINUS   &kp EQUAL
+&kp LEFT_SHIFT    &bt BT_CLR_ALL  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none        &kp COMMA     &kp N4   &kp N5  &kp N6  &kp STAR    &kp PLUS
+&kp LEFT_CONTROL  &none           &none         &none         &none         &none        &kp DOT       &kp N1   &kp N2  &kp N3  &kp PERIOD  &kp SLASH
+                                                &none         &kp RET       &kp SPACE    &kp SPACE     &kp RET  &kp N0
             >;
         };
     };
